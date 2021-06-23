@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Linkv.Sg.Imsdk</PackageId>
+    <Authors>Linkv.Sg</Authors>
+    <Copyright>Linkv.Sg</Copyright>
+    <Owners>Linkv.Sg</Owners>
+    <Title>IM Sdk</Title>
+    <Description>该Sdk提供 “IM App Token”获取、聊天内容推送、事件推送等接口。
+平台地址：https://www.linkv.sg/</Description>
+    <PackOnBuild>true</PackOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Result\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
