@@ -1,5 +1,5 @@
 ﻿# im-netcore-sdk
-Visual Studio 2019 , .NET CORE 3.1.0
+Visual Studio 2019 , .Net Core 3.1.0
 
 具体使用方法，可查看单元测试项目 /Test 目录下
 
